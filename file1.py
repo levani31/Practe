@@ -16,7 +16,7 @@ import json
 # with open("data.json",) as data:
 #     print(json.load(data))
 
-data2 = {"age":22}
+data2 = {"age":24}
 with open("data.json","w") as file:
     file.write(json.dumps(data2))
     print(json.load(file))
